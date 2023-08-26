@@ -1,0 +1,224 @@
+body {
+    background: var(--020-a-18, #020A18);
+}
+*{
+    font-family: sans-serif;
+}
+.container {
+    width: 1740px;
+    margin: 0 auto;
+}
+#hero{
+    background: var(--020-a-18, rgb(17, 26, 41))
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-robot{
+    display: flex;
+    align-items: center;
+}
+.header-robot h4{
+    color: var(--3-a-68-b-8, #3A68B8);
+font-size: 22.545px;
+font-weight: 600;
+}
+.header-nav a{
+    padding: 0 50px;
+    text-decoration: none;
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+}
+.header button {
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+padding: 15px 30px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0px;
+}
+.hero-info h4{
+    color: var(--3-a-68-b-8, #3A68B8);
+font-size: 18px;
+font-weight: 600;
+}
+.hero-info h1{
+    color: var(--ffffff, #FFF);
+font-size: 55px;
+font-weight: 800;
+line-height: 130%; /* 71.5px */
+}
+.hero-info p{
+    color: var(--ffffff, #FFF);
+font-size: 18px;
+font-weight: 600;
+line-height: 160%; /* 28.8px */
+}
+.hero-buttons button{
+    gap: 50px;
+    color: var(--ffffff, #FFF);
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+padding: 15px 30px;
+border: none;
+}
+.hero img{
+    padding-left: 200px;
+    margin-top: -100px;
+}
+.logos img{
+   margin-left: 120px;
+   
+}.brain{
+    margin-top: 250px;
+    display: flex;
+}
+.brain-info {
+    margin: 20px 300px;
+}
+.brain-info h2{
+    color: var(--ffffff, #FFF);
+font-size: 40px;
+font-weight: 700;
+line-height: 130%; /* 52px */
+}
+.brain-info p {
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+line-height: 160%; /* 25.6px */
+}
+.brain-info button{
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+border-radius: 5px;
+background: var(--3-a-68-b-8, #3A68B8);
+padding: 15px 30px;
+}
+.blocks {
+    display: flex;
+}
+.block{
+    border-radius: 10px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.068) 0%, #ffffff1e 100%);
+backdrop-filter: blur(100px);
+width: 412.963px;
+height: 478px;
+margin: 300px 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.block img {
+    width: 20%;
+}
+.block h5{
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-size: 25px;
+font-weight: 700;
+line-height: 125%; /* 31.25px */
+}
+.block p{
+    color: var(--ffffff, #FFF);
+text-align: center;
+font-size: 16px;
+font-weight: 600;
+line-height: 160%; /* 25.6px */
+}
+.solutions-info h3{
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+}
+.solutions-info p{
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 600;
+line-height: 160%; /* 25.6px */
+}
+.solutions{
+    display: flex;
+margin-left: 180px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer about{
+    display: flex;
+    flex-direction: column;
+}
+.icon img{
+    margin-top: 0px;
+}
+.icon h6{
+    margin-top: px;
+    color: var(--3-a-68-b-8, #3A68B8);
+font-size: 15.963px;
+font-weight: 600;
+}
+.icon p{
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 450;
+}
+.picture-contact p{
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 500;
+}
+.picture-contact{
+    display: flex;
+}
+.information h5{
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 500;
+}
+.information p{
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 450;
+}
+.about h5{
+    color: var(--ffffff, #FFF);
+font-size: 16px;
+font-weight: 500;
+}
+.about p{
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 450;
+}
+.about h6{
+    color: var(--ffffff, #FFF);
+font-size: 14px;
+font-weight: 500;
+}
+#footer{
+    border-radius: 10px;
+/* opacity: 0.05; */
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.048) 0%, #ffffff00 100%);
+backdrop-filter: blur(100px);
+}
+.information p{
+    margin-bottom: 33px;
+}
